@@ -1,0 +1,30 @@
+- item: Broccoli salad
+  groceries:
+    - Broccoli
+- item: Roasted Brussels sprouts
+  groceries:
+    - Brussels sprouts
+- item: Roasted sweet potatoes
+  groceries:
+    - Sweet potatoes
+- item: Raw vegetables
+  groceries:
+    - Raw veggies
+- item: Corn on the cob
+  groceries:
+    - Corn
+- item: Caesar salad
+  groceries:
+    - Caesar dressing
+    - Lettuce
+    - Croutons
+- item: BBQ apples
+  groceries:
+    - Apples
+- item: Chopped salad
+  groceries:
+    - Lettuce
+    - Veggies for chopped salad
+- item: Coleslaw
+  groceries:
+    - Cabbage

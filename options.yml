@@ -1,0 +1,95 @@
+- item: Chicken nuggets with sweet potatoes and beets
+  groceries:
+    - Chicken breasts
+    - Sweet potatoes
+    - Beets
+- item: Tortellini casserole
+  groceries:
+    - Broccoli
+    - Tortellini
+    - Tomato sauce
+- item: Salmon/trout with green beans and rice
+  groceries:
+    - Salmon/trout
+    - Green beans
+    - Pesto
+- item: Burgers
+  groceries:
+    - Meat for burgers
+  person: Ian
+- item: Chicken and rice soup
+  groceries:
+    - Chicken breasts
+    - Celery
+    - Carrots
+- item: Fish tacos
+  groceries:
+    - White fish
+    - Cabbage
+    - Tortillas
+- item: Spaghetti with meat balls
+  groceries:
+    - Spaghetti
+    - Pasta sauce
+    - Beef for balls
+- item: Pork chops
+  groceries:
+    - Pork chops
+    - Veggies
+  person: Ian
+- item: English muffin pizzas
+  groceries:
+    - English muffins
+    - Pizza sauce
+    - Mozzarella
+    - Pepperoni
+    - Green pepper
+    - Mushrooms
+- item: BBQ chicken thighs
+  groceries:
+    - Chicken thighs
+    - Veggies
+  person: Ian
+- item: Chicken fajitas
+  groceries:
+    - Chicken breasts
+    - Peppers
+    - Tortillas
+- item: Chili con carne
+  groceries:
+    - Meat for chili
+    - Passata
+    - Kidney beans
+    - Black beans
+  person: Ian
+- item: BBQ sausages
+  groceries:
+    - Sausages
+    - Veggies
+  person: Ian
+- item: Broccoli fritters
+  groceries:
+    - Frozen broccoli
+    - Frozen cauliflower
+- item: Italian soup
+  groceries:
+    - Sausages for soup
+    - Potato
+    - Passata
+    - Celery
+    - Carrots
+- item: Pasta with meat sauce
+  groceries:
+    - Ground meat or sausage for pasta
+    - Pasta
+    - Passata
+- item: Curry lentil soup
+  groceries:
+    - Lentils
+    - Coconut milk
+    - Potato
+    - Cauliflower
+- item: Hot dogs
+  groceries:
+    - Hot dogs
+    - Hot dog buns
