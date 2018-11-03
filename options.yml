@@ -8,7 +8,7 @@
     - Broccoli
     - Tortellini
     - Tomato sauce
-- item: Salmon/trout with green beans and rice
+- item: Juicy salmon/trout with green beans and rice
   groceries:
     - Salmon/trout
     - Green beans
@@ -16,6 +16,7 @@
 - item: Burgers
   groceries:
     - Meat for burgers
+    - Veggies
   person: Ian
 - item: Chicken and rice soup
   groceries:
@@ -27,6 +28,10 @@
     - White fish
     - Cabbage
     - Tortillas
+- item: Beef tacos
+  groceries:
+    - Tortillas
+    - Ground beef for tacos
 - item: Spaghetti with meat balls
   groceries:
     - Spaghetti
@@ -78,6 +83,7 @@
     - Passata
     - Celery
     - Carrots
+  person: Ian
 - item: Pasta with meat sauce
   groceries:
     - Ground meat or sausage for pasta
@@ -93,3 +99,39 @@
   groceries:
     - Hot dogs
     - Hot dog buns
+- item: Maha's lentil soup
+  groceries:
+    - Lentils
+    - Large tomato
+    - Potato
+    - Carrots
+  person: Ian
+- item: Roasted veggies
+  groceries:
+    - Veggies to roast (sweet potato, squash, broc, cauliflower)
+- item: Rice and beans
+  groceries:
+    - Canned beans
+- item: Sloppy joes
+  groceries:
+    - Ground beef
+    - Buns for Joes
+- item: Crusty mac
+  groceries:
+    - Macaroni
+  person: Kate
+- item: Peanut Thai quinoa salad
+  groceries:
+    - quinoa
+    - cabbage (red if they have it)
+    - Bell pepper
+    - Cilantro
+    - Chickpeas
+  person: Ian
+- item: Store-bought quiche
+  groceries:
+    - quiche x 2
+- item: Granddad's Rigatoni
+  groceries:
+    - 500g rigatoni
+    - Jarred pasta sauce
