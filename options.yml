@@ -135,3 +135,7 @@
   groceries:
     - 500g rigatoni
     - Jarred pasta sauce
+- item: Shepherd's Pie
+  groceries:
+    - Meat for shepherd's pie
+    - Potatoes

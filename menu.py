@@ -1,3 +1,4 @@
+import subprocess
 import itertools
 from dataclasses import dataclass
 from functools import lru_cache
@@ -5,6 +6,10 @@ import sys
 import random
 import json
 import yaml
+
+def say(phrase="menu generated"):
+    """Just say it"""
+    subprocess.run(["say", "-v", "Daniel", phrase])
 
 @lru_cache()
 def get_yaml(filename):
@@ -29,6 +34,7 @@ class Menu:
         self.items = [item for item in self.items if item['confirmed']]
         self.items.extend(self.pick_options('Ian', self.ian_count - len(self.list_items('Ian'))))
         self.items.extend(self.pick_options('Kate', self.kate_count - len(self.list_items('Kate'))))
+        say()
 
     def get_feedback_on_menu(self):
         if len(self.unconfirmed_items) > 0:
@@ -52,7 +58,7 @@ class Menu:
         """Just get all items that haven't been confirmed"""
         return [item for item in self.items if item['confirmed'] is False]
 
-    def pick_options(self, person, count, weight=4):
+    def pick_options(self, person, count, weight=2):
         """Pick options for a person, weighting "their" menu items higher.
 
         Parameters
@@ -100,7 +106,7 @@ class Menu:
 if __name__ == '__main__':
     args = sys.argv
     if len(args) > 1:
-        menu = Menu(ian=int(args[1]), kate=int(args[2]))
+        menu = Menu(ian_count=int(args[1]), kate_count=int(args[2]))
     else:
         menu = Menu()
     print(menu)
